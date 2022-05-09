@@ -25,11 +25,8 @@ const UserSchema = new mongoose.Schema(
       trim: true,
       required: true,
     },
-    authToken: {
-      type: String,
-    },
     mobile: {
-      type: Number,
+      type: String,
       trim: true,
       maxlength: 10,
       required: true,
